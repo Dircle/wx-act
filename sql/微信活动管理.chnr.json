@@ -4,7 +4,7 @@
   "avatar": "",
   "version": "3.0.0",
   "createdTime": "2021-7-19 14:14:47",
-  "updatedTime": "2021-7-19 15:06:58",
+  "updatedTime": "2021-7-19 15:12:41",
   "dbConns": [],
   "profile": {
     "default": {
@@ -154,9 +154,7 @@
       "defKey": "act_info",
       "defName": "活动信息",
       "comment": "",
-      "properties": {
-        "partitionBy": ""
-      },
+      "properties": {},
       "nameTemplate": "{defKey}[{defName}]",
       "headers": [
         {
@@ -270,7 +268,7 @@
           "scale": "",
           "primaryKey": false,
           "notNull": false,
-          "autoIncrement": true,
+          "autoIncrement": false,
           "defaultValue": "",
           "hideInGraph": false,
           "refDict": "",
@@ -386,9 +384,7 @@
       "defKey": "act_question",
       "defName": "测试题目",
       "comment": "",
-      "properties": {
-        "partitionBy": ""
-      },
+      "properties": {},
       "nameTemplate": "{defKey}[{defName}]",
       "headers": [
         {
@@ -633,9 +629,7 @@
       "defKey": "act_question_option",
       "defName": "测试题目选项",
       "comment": "",
-      "properties": {
-        "partitionBy": ""
-      },
+      "properties": {},
       "nameTemplate": "{defKey}[{defName}]",
       "headers": [
         {
@@ -865,9 +859,7 @@
       "defKey": "act_user_answer",
       "defName": "用户答案",
       "comment": "",
-      "properties": {
-        "partitionBy": ""
-      },
+      "properties": {},
       "nameTemplate": "{defKey}[{defName}]",
       "headers": [
         {
@@ -1081,9 +1073,7 @@
       "defKey": "act_answer_analysis",
       "defName": "活动答案解析",
       "comment": "",
-      "properties": {
-        "partitionBy": ""
-      },
+      "properties": {},
       "nameTemplate": "{defKey}[{defName}]",
       "headers": [
         {
@@ -1295,9 +1285,7 @@
       "defKey": "wx_user",
       "defName": "微信用户（同步微信接口返回数据）",
       "comment": "",
-      "properties": {
-        "partitionBy": ""
-      },
+      "properties": {},
       "nameTemplate": "{defKey}[{defName}]",
       "headers": [
         {
